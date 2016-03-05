@@ -1,2 +1,2 @@
 <?php
-?>never quite. 2nd attmpts
+?>never quit. Try it after running
