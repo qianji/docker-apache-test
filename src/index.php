@@ -1,2 +1,2 @@
 <?php
-?>Use Jenkins
+?>I am happy. Jenkins continous integration.
