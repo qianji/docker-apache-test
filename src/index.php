@@ -1,6 +1,3 @@
 <?php
-?>Time to celerbate.dadaf
-dd
-d
-d
+?>Time to celerbate.dadaf. I am tired of this
 
