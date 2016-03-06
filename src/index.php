@@ -1,4 +1,2 @@
 <?php
-?>Time to celerbate. Holla. katie. 
-Time to f888
-dafdafd
+?>Time to celerbate.
