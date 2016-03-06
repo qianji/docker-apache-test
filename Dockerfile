@@ -1,3 +1,3 @@
 FROM php:5.6-apache
-USER jenkins
+USER ROOT
 COPY src/ /var/www/html/
