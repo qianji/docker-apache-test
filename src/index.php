@@ -1,2 +1,2 @@
 <?php
-?> 3nd try after restarting jenkins. Demo 
+?> 4th. restart jenkins automatically
