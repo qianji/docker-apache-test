@@ -1,2 +1,2 @@
 <?php
-?> 4th. restart jenkins automatically
+?> 4th. 
