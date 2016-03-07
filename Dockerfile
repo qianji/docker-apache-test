@@ -1,2 +1,3 @@
+USER root
 FROM php:5.6-apache
-ADD src/ /var/www/html/
+COPY src/ /var/www/html/
