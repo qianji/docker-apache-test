@@ -1,4 +1,5 @@
 #!/bin/bash
+SERVICE_NAME="docker-apache-service"
 DOCKER_HUB_REPO_NAME="qianjizheng/docker-apache-test"
 docker ps -a | awk '{ print $1,$2 }' | grep $DOCKER_HUB_REPO_NAME | awk '{print $1 }' | xargs -I {} docker stop {}
 docker ps -a | awk '{ print $1,$2 }' | grep $DOCKER_HUB_REPO_NAME | awk '{print $1 }' | xargs -I {} docker rm {}
