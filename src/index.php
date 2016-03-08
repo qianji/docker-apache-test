@@ -1,2 +1,2 @@
 <?php
-?> 1 try using ubuntu
+?> 1st try using ubuntu
