@@ -1,2 +1,2 @@
 <?php
-?> cross your finger. 2nd try using ECS and Docker HUB notification
+?> Thanks. Mama 3nd try using ECS and Docker HUB notification
