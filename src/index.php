@@ -1,2 +1,2 @@
 <?php
-?> 1 try using jenkins docker
+?> 1 try using ubuntu
