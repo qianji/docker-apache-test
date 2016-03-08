@@ -1,2 +1,2 @@
 <?php
-?> 1st try using ubuntu. have toinstall. d
+?> 2nd try using ubuntu. have toinstall. d
