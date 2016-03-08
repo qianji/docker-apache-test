@@ -1,2 +1,2 @@
 <?php
-?> 2th try with running after restarting
+?> 1th try with running
