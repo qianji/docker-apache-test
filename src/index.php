@@ -1,2 +1,2 @@
 <?php
-?> 6 try after rebuilding
+?> 7 try after rebuilding
