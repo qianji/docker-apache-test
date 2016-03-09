@@ -1,2 +1,2 @@
 <?php
-?> 1st try after blogging.
+?> 2nd try after blogging.
