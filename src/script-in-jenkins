@@ -1,0 +1,15 @@
+#!/bin/bash
+# specify the name of the repository in docker hub.
+DOCKER_HUB_REPO_NAME="qianjizheng/docker-apache-test"
+
+# stop any container that was created and started by the repo with name in varibale DOCKER_HUB_REPO_NAME
+docker ps -a | awk '{ print $1,$2 }' | grep $DOCKER_HUB_REPO_NAME | awk '{print $1 }' | xargs -I {} docker stop {}
+
+# rmove any container that was created by the repo with name in varaible DOCKER_HUB_REPO_NAME
+docker ps -a | awk '{ print $1,$2 }' | grep $DOCKER_HUB_REPO_NAME | awk '{print $1 }' | xargs -I {} docker rm {}
+
+# pull the latest build from docker hub
+docker pull $DOCKER_HUB_REPO_NAME
+
+# run the container
+docker run -d -p 81:80 $DOCKER_HUB_REPO_NAME
